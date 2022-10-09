@@ -1,0 +1,222 @@
+nav{
+    
+    width: 100%;
+    background-color: rgb(246, 248, 223);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1vw 8vw;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.15);
+}
+a{
+    text-decoration: none;
+}
+*{
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+#log-btn{
+    display: block;
+    margin: 20px auto;
+}
+.reg{
+    padding: 50px;
+    background-color: bisque;
+    text-align: center;
+    height:400px;
+}
+#reg-btn{
+display: block;
+text-align: center;
+
+margin: 20px auto;
+}
+.reg h1 {
+    padding: 20px;
+}
+nav img{
+    width: 80px;
+    height: 80px;
+    cursor: pointer;
+}
+
+nav .navigation ul{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+nav .navigation ul li{
+    list-style: none;
+    margin-left: 100px;
+}
+
+nav .navigation ul li a{
+    text-decoration: none;
+    color: rgb(21, 21, 100);
+    font-size: 16px;
+    font-weight: 500;
+    transition: 0.3s ease;
+}
+/* home page on click opens */
+nav .navigation ul li a.active,
+
+nav .navigation ul li a:hover{
+    color: coral;
+}
+
+/* home */
+
+#home{
+
+    background-image: linear-gradient(rgba(9,5,54,0.3),rgba(5,4,46,0.5) ), 
+    url("images/connor-moynihan-NgAevHDjYQw-unsplash.jpg") ;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 40px;
+}
+
+#home h2{
+    color: rgb(231, 133, 20);
+    font-size: 2.2rem;
+    letter-spacing: 1px;
+
+}
+
+#home p{
+    width: 50%;
+    color: white;
+    font-size: 0.9rem;
+    letter-spacing: 1px;
+    line-height: 20px;
+}
+#home .btn{
+    margin-top: 15px;
+
+}
+
+#home a{
+    text-decoration: none;
+    font-size: 0.9rem;
+    padding: 5px 15px;
+    background-color:whitesmoke;
+    font-weight: 600;
+    border-radius: 5px;
+}
+
+#home a.bluee{
+    color: white;
+    background-color: rgb(21, 21, 100);
+}
+#home a.bluee:hover{
+    color:rgb(21, 21, 100);
+    background-color:white;
+    transition: 0.3s ease;
+}
+
+#home a.yelloww{
+    color: white;
+    background-color: rgb(229, 191, 86);
+}
+#home a.yelloww:hover{
+    color:rgb(21, 21, 100);
+    background-color:white;
+    transition: 0.3s ease;
+}
+.btn{
+    padding: 10px 30px;
+    margin-left: 50px;
+}
+
+.btn-login , .btn-joinus {
+    background-color: rgb(222, 243, 117); /* Green */
+    border: none;
+    color: blue;
+    border-radius: 10px;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;
+    font-size: 16px;
+}
+
+/* footer */
+footer{
+    padding: 5vw;
+    background-color: #101C32;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+footer .footer-col{
+    padding-bottom: 40px;
+}
+
+footer h3{
+    color: rgb(241, 240, 245);
+    font-weight: 600;
+    padding-bottom: 20px;
+}
+footer li{
+    list-style: none;
+    color: #7b838a;
+    font-size: 15px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+footer li:hover{
+    color: aliceblue;
+    
+}
+
+footer p{
+    color: #7b838a;
+}
+
+footer .subscribe{
+    margin-top: 20px;
+}
+footer input{
+    width: 220px;
+    padding: 15px 12px;
+    background: #334F6C;
+    border: none;
+    outline: none;
+    color: white;
+}
+
+footer .subscribe a{
+    text-decoration: none;
+    font-size: 0.9rem;
+    padding: 12px 15px;
+    background-color:whitesmoke;
+    font-weight: 600;
+}
+footer .subscribe a.yelloww{
+    color: white;
+    background-color: rgb(229, 191, 86);
+}
+footer .subscribe a.yelloww:hover{
+    color:rgb(21, 21, 100);
+    background-color:white;
+    transition: 0.3s ease;
+}
+
+footer .copyright p{
+    color: rgb(217, 236, 226);
+}
